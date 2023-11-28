@@ -1,0 +1,10 @@
+age_of_children <- c("5 - 6 years", "7 - 8 years", "9 - 10 years")
+A <- c(18, 2, 20)
+B <- c(22, 28, 10)
+C <- c(20, 40, 40)
+dataframe = data.frame(age_of_children, A, B, C)
+dataframe
+cov(dataframe$B, dataframe$C)
+cov(dataframe)
+cor(dataframe$B, dataframe$C)
+cor(dataframe)
