@@ -1,0 +1,17 @@
+@relation R1
+@attribute custid numeric
+@attribute transid numeric
+@attribute items {a, b, c, d, e}
+
+@data
+1,1,'{a, b, e}'
+1,24,'{a, b, c, e}'
+2,12,'{a, b, d, e}'
+2,31,'{a, c, d, e}'
+3,15,'{b, c, e}'
+3,22,'{b, d, e}'
+4,29,'{c, d}'
+4,40,'{a, b, c, e}'
+5,33,'{a, d, e}'
+5,38,'{a, b, e}'
+CSA1625-DWDM-192211348/manju
